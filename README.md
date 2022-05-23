@@ -42,7 +42,7 @@ Regarding the Mentorship Program, the employees eligible to participate are only
 As we can see, there is a considerable representation of expected retirees in almost all departments, but there are about 59 apprentices for every mentor, which means that there will be a shortage of qualified mentors. A suggestion would be to study the skills that each mentor requires according to the department, in order to calculate how many people the mentor can help.
 
 **Suggested tables**
-We recommended to study not only the titles but also the departments separately for better organization, as shown in the suggested table:
+We recommended to study not only the titles but also the departments separately for better organization, as shown in the following table:
 
 ###### Unique titles by Department
 ![Alt text](/Resources/title_and_depto.png "imagen6") 
