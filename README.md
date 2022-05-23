@@ -1,7 +1,7 @@
 # Pewlett Hackard Analysis
 
 ## Overview
-In this project, we helped Bobby, a Human Resources Analyst who works in Pewlett Hackard, and need to answer the next questions: Who will be retiring in the next few years in the company?, and how many positions will Pewlett Hackard, need to fill?
+In this project, we helped Bobby, a Human Resources Analyst who works in Pewlett Hackard and need to answer the next questions: Who will be retiring in the next few years in the company?, and how many positions will Pewlett Hackard, need to fill?
 
 Our **purpose** was to perform a database analysis for Pewlett Hackard with PostgreSQL and create a list of employees who are going to retire from their jobs shortly. The company also asks Bobby and us to develop a retirement package and prepare a mentorship program.
 
@@ -15,15 +15,15 @@ The following image shows an Entity Relationship Diagrama that we used to unders
 
 ![Alt text](/Resources/EmployeeDB.png "imagen1") 
 
-The table called "Retiring employees" has information on employee number, first name, last name, title, from_date, and to_date. This query results in 133,776 employees retiring soon.
+The table called "Retiring employees" has information of employee number, first_name, last_name, title, from_date, and to_date. This query results in 133,776 employees retiring soon.
 
 ![Alt text](/Resources/1_retirement.png "imagen2") 
 
-However, the above table has not been removed for duplicates, so in the following query, we corrected the "retiring employees" table, which shows that 90,398 employees meet the criteria for retiring soon.
+However, in that table has not been removed the duplicate data, so in the following query, we corrected the "retiring employees" table, which shows that 90,398 employees meet the criteria for retiring soon.
 
 ![Alt text](/Resources/1_uniquetitles.png "imagen3") 
 
-In the following table, it shows the number of employees due to retire according to their title:
+In the following table, we presented the number of employees due to retire according to their title:
 
 ![Alt text](/Resources/1_retiring_titles.png "imagen4") 
 
@@ -42,10 +42,12 @@ Regarding the Mentorship Program, the employees eligible to participate are only
 As we can see, there is a considerable representation of expected retirees in almost all departments, but there are about 59 apprentices for every mentor, which means that there will be a shortage of qualified mentors. A suggestion would be to study the skills that each mentor requires according to the department, in order to calculate how many people the mentor can help.
 
 **Suggested tables**
-It is recommended to study not only the titles but also the departments separately for better organization, as shown in the suggested table:
+We recommended to study not only the titles but also the departments separately for better organization, as shown in the suggested table:
 
+###### Unique titles by Department
 ![Alt text](/Resources/title_and_depto.png "imagen6") 
 
-Finally, we decided to create a new query that counts the number of roles or positions per department.
+Finally, we suggested to create a new query that counts the number of roles or positions per department.
 
+###### Position to fill per deparment
 ![Alt text](/Resources/roles.png "imagen7")
