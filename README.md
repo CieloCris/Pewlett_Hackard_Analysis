@@ -31,7 +31,7 @@ We can conclude that the positions where most employees are going to retire are 
 
 Finally, the following table shows the employees eligible for the mentorship program. In this case, the query returns 1,548 rows and looks like this:
 
-![Alt text](/Resources/mentorship.png "imagen5") 
+![Alt text](/Resources/mentonship.png "imagen5") 
 
 ## Summary
 
